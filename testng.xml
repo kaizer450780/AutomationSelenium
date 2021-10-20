@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="/Users/mateo-macbook/Desktop/Entrevistas/SearchGoogle">
+        <classes>
+            <class name="com.google.base.AllResultTextTest"/>
+            <class name="com.google.base.SearchEmptyTest"/>
+            <class name="com.google.base.SearchEveryString"/>
+            <class name="com.google.base.SearchNullTest"/>
+            <class name="com.google.base.SearchResultNotFound"/>
+            <class name="com.google.base.SearchTest"/>
+        </classes>
+    </test>
+</suite>
